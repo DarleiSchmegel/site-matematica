@@ -1,0 +1,97 @@
+/*=============== 
+FOOTER
+==================*/
+footer {
+  
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+    text-align: center;
+  
+    padding: 30px;
+  
+}
+footer p.direitos{
+    font-weight: bold;
+    padding-top: 30px;
+}
+  
+footer .contatos {
+
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 80vw;
+    padding: 8px;
+
+    border-width: 1px 0 0;
+    border-style: solid;
+    border-color: rgb(99, 140, 140) ;
+   
+}
+footer .intro-end {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    max-width: 720px;
+    padding: 20px;
+
+    border-width: 0 0 1px 0;
+    border-style: solid;
+    border-color: rgb(99, 140, 140) ;
+}
+footer .intro-end p {
+    font-size: 22px;
+    font-style: oblique;
+    font-weight: normal;
+    color: darkslategray;
+}
+footer .persona {
+    display: flex;
+    align-items: center;
+    gap: 3px;
+}
+footer .contatos img{
+    width: 100px;
+    border-radius: 50%;
+}
+footer .contatos .social {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+footer .contatos .social #social{
+    font-size: 50px;
+    gap: 10px;
+    color: darkslategray;
+    transition: all 0.3s ease 0s;
+}
+
+footer .contatos p{
+    color: darkslategray;
+    font-weight: bold;
+}
+footer .contatos .social #social:hover{
+    transform: translateY(-3px);
+    /* box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 1px 1px 0 rgba(0, 0, 0, 0.19); */
+    /* box-shadow: 10px 10px 10px teal; */
+}
+
+footer .linkes {
+    padding: 20px;
+    font-size: 2.6rem;
+    gap: 20px;
+}
+
+footer .linkes .footer-link{
+    color: darkblue;
+    padding: 0 10px;
+}
+footer .linkes .footer-link:hover{
+    color: darkblue;
+    padding: 0 10px;
+    text-decoration: underline;
+}
