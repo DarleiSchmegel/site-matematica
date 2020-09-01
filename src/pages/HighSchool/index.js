@@ -9,7 +9,7 @@ function HighSchool() {
   return (
     <>
         <main>
-
+            <h1>Nivel Médio</h1>
 
             <section className="produtos">
             { contentPages.map( page =>
