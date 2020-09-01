@@ -8,7 +8,7 @@ function HeaderResponsive() {
       <header>
         
         <div className="container">
-          <Link className="pageSelect1" id="top" to="/" onClick={menuOnOff}>
+          <Link className="pageSelect1" id="top" to="/" >
             <img className="logo-nav" id="logo-nave" src={logo} alt=""/>
           </Link>
       
@@ -26,14 +26,14 @@ function HeaderResponsive() {
                   <Link className="pageSelect1" to="/" onClick={menuOnOff}>Inicio</Link>
                 </li> */}
                 <li>
-                  <a className="pageSelect2" href="" >Nivel Fundamental</a>
+                  <Link className="pageSelect2" to="/ensino-basico" onClick={menuOnOff} >Nivel Fundamental</Link>
                 </li>
                 <li>
-                <Link className="pageSelect3" to="/about" onClick={menuOnOff}>Nivel Médio</Link>
+                <Link className="pageSelect3" to="/ensino-medio" onClick={menuOnOff}>Nivel Médio</Link>
                   {/* <a href="sobre.html">Sobre</a> */}
                 </li>
                 <li>
-                  <a className="pageSelect4" href="">Nivel Superior</a>
+                  <Link className="pageSelect4" to="/ensino-superior" onClick={menuOnOff} >Nivel Superior</Link>
                 </li>
                 {/* <li>
                   <a className="pageSelect4" href="">Sobre</a>

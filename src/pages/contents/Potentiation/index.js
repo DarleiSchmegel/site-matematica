@@ -6,6 +6,19 @@ import '../styles.css'
 
 function Potentiation() {
   return (
+    <>
+    
+    <html lang="pt-br">
+    <head>
+      <meta charset="UTF-8"/>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+      <title>Document</title>
+      <meta
+      name="description"
+      content="Potenciação Matemática, fórmulas e exercícios resolvidos."
+    />
+    </head>
+    <body>
     <div className="container-covered">
       <div className="content-covered">
         <h1>Potenciação </h1>
@@ -19,6 +32,9 @@ function Potentiation() {
         <p>a^m</p>
       </div>
     </div>
+    </body>
+    </html>
+    </>
   )
 }
 

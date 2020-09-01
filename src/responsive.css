@@ -10,7 +10,7 @@ html {
         margin-top:500px;
        
        
-      }
+      } 
 }
 
 @media screen and (max-width: 734px){
@@ -93,8 +93,7 @@ html {
         
         width: 100vw;
         height: 100vh;
-        background-color: rgb(148, 226, 148);
-        
+        background-color: darkslategray;
         z-index: 10;
 
         display: flex;

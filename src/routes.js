@@ -12,7 +12,9 @@ import  {contentPages}  from './contentPagesVector'
 import SecondDegreeFunction from './pages/contents/SecondDegreeFunction';
 import Factorization from './pages/contents/Factorization';
 import Potentiation from './pages/contents/Potentiation';
-
+import UniversityEducation from './pages/UniversityEducation';
+import HighSchool from './pages/HighSchool';
+import ElementarySchool from './pages/ElementarySchool'
 // const keys = Object.keys(contentPages[0])
 
 export default function Routes() {
@@ -30,8 +32,9 @@ export default function Routes() {
                 <Route path="/funcao-de-segundo-grau" component={SecondDegreeFunction} />
                 <Route path="/fatoracao" component={Factorization} />
                 <Route path="/potenciacao" component={Potentiation} />
-
-                    
+                <Route path="/ensino-superior" component={UniversityEducation} />
+                <Route path="/ensino-medio" component={HighSchool} />
+                <Route path="/ensino-basico" component={ElementarySchool} />
             </Switch> 
             <Footer/>
         </BrowserRouter>
