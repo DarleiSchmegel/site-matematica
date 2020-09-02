@@ -1,5 +1,5 @@
 import React from 'react';
-import { BrowserRouter, Switch , Route } from 'react-router-dom';
+import { BrowserRouter, Switch , Route , HashRouter } from 'react-router-dom';
 
 import HeaderResponsive from './pages/HeaderResponsive';
 import Main from './pages/Main'
@@ -22,21 +22,23 @@ export default function Routes() {
     return(
         
         
-        <BrowserRouter>
-            <HeaderResponsive/> 
-            <Switch>
-           
-                <Route path="/" exact component={Main} />
-                <Route path="/about" component={About} />
-                
-                <Route path="/funcao-de-segundo-grau" component={SecondDegreeFunction} />
-                <Route path="/fatoracao" component={Factorization} />
-                <Route path="/potenciacao" component={Potentiation} />
-                <Route path="/ensino-superior" component={UniversityEducation} />
-                <Route path="/ensino-medio" component={HighSchool} />
-                <Route path="/ensino-basico" component={ElementarySchool} />
-            </Switch> 
-            <Footer/>
+        <BrowserRouter >
+            <HashRouter basename="/">
+                <HeaderResponsive/> 
+                <Switch>
+            
+                    <Route path="/" exact component={Main} />
+                    <Route path="/about" component={About} />
+                    
+                    <Route path="/funcao-de-segundo-grau" component={SecondDegreeFunction} />
+                    <Route path="/fatoracao" component={Factorization} />
+                    <Route path="/potenciacao" component={Potentiation} />
+                    <Route path="/ensino-superior" component={UniversityEducation} />
+                    <Route path="/ensino-medio" component={HighSchool} />
+                    <Route path="/ensino-basico" component={ElementarySchool} />
+                </Switch> 
+                <Footer/>
+            </HashRouter>
         </BrowserRouter>
     );
 }
