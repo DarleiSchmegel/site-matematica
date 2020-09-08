@@ -1,8 +1,6 @@
 import React from 'react';
 import './styles.css';
 import { Link } from 'react-router-dom';
-import { menuOnOff } from '../../scripts'
-// import { Container } from './styles';
 
 import euImg from '../../images/eu.png'
 
@@ -43,7 +41,7 @@ function Footer() {
                 |
                 <Link className="footer-link" to="/about" onClick={() => window.scrollTo(0, 0)}>Sobre</Link>
             </div>
-            <p className="direitos">© 2020-2020 Matemática Descomplicada. Todos os direitos reservados.</p>
+            <p className="direitos">© 2020-2020 Matemática Simplificada. Todos os direitos reservados.</p>
        </footer>
       </>
   )

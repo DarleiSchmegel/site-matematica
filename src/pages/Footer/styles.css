@@ -44,7 +44,7 @@ footer .intro-end {
     border-color: rgb(99, 140, 140) ;
 }
 footer .intro-end p {
-    font-size: 22px;
+    font-size: 2rem;;
     font-style: oblique;
     font-weight: normal;
     color: darkslategray;
@@ -55,7 +55,7 @@ footer .persona {
     gap: 3px;
 }
 footer .contatos img{
-    width: 100px;
+    width: 7.5rem;
     border-radius: 50%;
 }
 footer .contatos .social {
@@ -64,7 +64,7 @@ footer .contatos .social {
     gap: 8px;
 }
 footer .contatos .social #social{
-    font-size: 50px;
+    font-size: 2rem;
     gap: 10px;
     color: darkslategray;
     transition: all 0.3s ease 0s;
@@ -82,7 +82,7 @@ footer .contatos .social #social:hover{
 
 footer .linkes {
     padding: 20px;
-    font-size: 2.6rem;
+    font-size: 2rem;
     gap: 20px;
 }
 

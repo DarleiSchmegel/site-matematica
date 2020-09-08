@@ -1,6 +1,5 @@
 import React from 'react';
 import { Link } from 'react-router-dom'
-import imgPotenciação from '../../images/potenciacao.jpg'
 
 import { contentPages } from '../../contentPagesVector'
 
@@ -24,10 +23,14 @@ function Main() {
               <p key={page.id} className="title text--medium">
                 {page.title}
               </p>
+
+              <p key={page.id} className="category text--medium">Nivel {page.category}</p>
+
               <div className="info">
                 <p key={page.id} className="text--medium">
                   {page.description}
                 </p>
+                
                 {/* <p className="price text--medium">19,90</p> */}
               </div>
             </div>

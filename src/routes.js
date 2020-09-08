@@ -6,8 +6,6 @@ import Main from './pages/Main'
 import About from './pages/About'
 import Footer from './pages/Footer'
 
-import  {contentPages}  from './contentPagesVector'
-
 // Contents
 import SecondDegreeFunction from './pages/contents/SecondDegreeFunction';
 import Factorization from './pages/contents/Factorization';
