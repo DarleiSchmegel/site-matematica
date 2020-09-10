@@ -11,16 +11,16 @@ export default function HeaderResponsive() {
   // }
   // onClick={(e)=> handleClick(e)}
 
-  function navOnOff(opcao){
-    if( opcao === "tab1"){
-      document
-        .querySelector(".menu-section")
-        .classList
-        .toggle("on")
+//   function navOnOff(opcao){
+//     if( opcao === "tab1"){
+//       document
+//         .querySelector(".menu-section")
+//         .classList
+//         .toggle("on")
 
-      document.getElementById()
-    }
-};
+//       document.getElementById()
+//     }
+// };
 
 
   return (
