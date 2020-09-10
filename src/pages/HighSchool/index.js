@@ -4,42 +4,54 @@ import { Link } from 'react-router-dom';
 
 import { contentPages } from '../../contentPagesVector'
 
+function filterByID(obj) {
+    if (obj.category === "médio") {
+      return true;
+    } else {
+      return false;
+    }
+}
+  
+var arrByID = contentPages.filter(filterByID);
 
 function HighSchool() {
   return (
     <>
         <main>
-            <h1>Nivel Médio</h1>
+                
+        <h2 className="card-description">Cardes com conteúdos de Nível Médio</h2>
+                   
 
-            <section className="produtos">
-            { contentPages.map( page => 
-                <>
-                {
-                    page.category === "médio" &&
-                    <div className="produto" key={page.id}>
-                        <Link key={page.id} to={page.path}  onClick={() => window.scrollTo(0, 0)}  >
-                        <div className="image">
-                            <img className="imageProd" src={page.urlImg} alt=""/>
-                        </div>
+                    <section className="produtos">
+                    { arrByID.map( page => 
 
-                        <div className="content">
-                            <p key={page.id} className="title text--medium">
-                            {page.title}
-                            </p>
-                            <div className="info">
-                            <p key={page.id} className="text--medium">
-                                {page.description}
-                            </p>
-                            {/* <p className="price text--medium">19,90</p> */}
+                            <div key={page.id} className="produto" >
+                                <Link to={page.path}  onClick={() => window.scrollTo(0, 0)}  >
+                                <div className="image">
+                                    <img className="imageProd" src={page.urlImg} alt=""/>
+                                </div>
+
+                                <div className="content">
+                                    <p className="title text--medium">
+                                    {page.title}
+                                    </p>
+
+                                    <p className="category text--medium">Nivel {page.category}</p>
+                                    
+                                    <div className="info">
+                                    <p className="text--medium">
+                                        {page.description}
+                                    </p>
+                                    
+                                    </div>
+                                </div>
+                                </Link>
                             </div>
-                        </div>
-                        </Link>
-                    </div>
-                }        
-                </>
-            
-                )}        
-            </section>
+                       
+                    
+                        )}        
+                    </section>
+               
         </main>
     </>
   )

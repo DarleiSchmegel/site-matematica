@@ -1,0 +1,19 @@
+.tab_label, Link{
+    display: block;
+    /* width: 100px; */
+    background-color: #363b48;
+    padding: 25px;
+    font-size: 20px;
+    color:#fff;
+    cursor: pointer;
+    text-align: center;
+}
+
+    /* .nav_tabs .rd_tab { 
+    display:none;
+    position: absolute;
+    } */
+
+.rd_tab:checked ~ #teste1 { 
+background-color: #e54e43;
+color:#fff;}

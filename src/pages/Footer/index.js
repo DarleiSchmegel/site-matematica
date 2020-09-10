@@ -42,6 +42,7 @@ function Footer() {
                 <Link className="footer-link" to="/about" onClick={() => window.scrollTo(0, 0)}>Sobre</Link>
             </div>
             <p className="direitos">© 2020-2020 Matemática Simplificada. Todos os direitos reservados.</p>
+            <p className="scrollToTop" onClick={() => window.scrollTo(0, 0)}><i className="fas fa-caret-square-up"></i></p>
        </footer>
       </>
   )

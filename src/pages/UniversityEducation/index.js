@@ -4,29 +4,40 @@ import React from 'react';
 import { contentPages } from '../../contentPagesVector'
 import { Link } from 'react-router-dom';
 
+function filterByID(obj) {
+    if (obj.category === "superior") {
+      return true;
+    } else {
+      return false;
+    }
+  }
+  
+var arrByID = contentPages.filter(filterByID);
+
 function UniversityEducation() {
   return (
     <>
         <main>
-            <h1>Nivel Superior</h1>
+       
+            <h2 className="card-description">Cardes com conteúdos de Nível Superior</h2>
 
             <section className="produtos">
-            { contentPages.map( page => 
-                <>
-                {
-                    page.category === "superior" &&
-                    <div className="produto" key={page.id}>
-                        <Link key={page.id} to={page.path}  onClick={() => window.scrollTo(0, 0)}  >
+            { arrByID.map( page => 
+                    <div key={page.id} className="produto">
+                        <Link to={page.path}  onClick={() => window.scrollTo(0, 0)}  >
                         <div className="image">
                             <img className="imageProd" src={page.urlImg} alt=""/>
                         </div>
 
                         <div className="content">
-                            <p key={page.id} className="title text--medium">
+                            <p className="title text--medium">
                             {page.title}
                             </p>
+
+                            <p className="category text--medium">Nivel {page.category}</p>
+
                             <div className="info">
-                            <p key={page.id} className="text--medium">
+                            <p className="text--medium">
                                 {page.description}
                             </p>
                             {/* <p className="price text--medium">19,90</p> */}
@@ -34,11 +45,10 @@ function UniversityEducation() {
                         </div>
                         </Link>
                     </div>
-                }        
-                </>
             
                 )}        
             </section>
+           
         </main>
     </>
 

@@ -1,11 +1,31 @@
 import React from 'react';
 import { Link } from 'react-router-dom'
 import {menuOnOff} from '../../scripts'
-import logo from '../../images/logo_barra_navegacao.png'
-function HeaderResponsive() {
+import './styles.css'
+import logo from '../../images/Logo1.png'
+
+export default function HeaderResponsive() {
+  // function handleClick(e){
+  //   e.preventDefault()
+  //   history.push("/ensino-basico");
+  // }
+  // onClick={(e)=> handleClick(e)}
+
+  function navOnOff(opcao){
+    if( opcao === "tab1"){
+      document
+        .querySelector(".menu-section")
+        .classList
+        .toggle("on")
+
+      document.getElementById()
+    }
+};
+
+
   return (
       <>
-      <header>
+      <header id="cabecalho">
         
         <div className="container">
           <Link className="pageSelect1" id="top" to="/" >
@@ -20,24 +40,20 @@ function HeaderResponsive() {
               <div className="two"></div>
               <div className="three"></div>
             </div>
-            <nav>
+            <nav className="nav_tabs">
               <ul>
                 {/* <li>
                   <Link className="pageSelect1" to="/" onClick={menuOnOff}>Inicio</Link>
                 </li> */}
-                <li>
-                  <Link className="pageSelect2" to="/ensino-basico" onClick={menuOnOff} >Nivel Fundamental</Link>
+                <li>   
+                    <Link  to="/ensino-basico" onClick={menuOnOff}>Nível Fundamental</Link> 
                 </li>
-                <li>
-                <Link className="pageSelect3" to="/ensino-medio" onClick={menuOnOff}>Nivel Médio</Link>
-                  {/* <a href="sobre.html">Sobre</a> */}
+                <li>             
+                  <Link to="/ensino-medio" onClick={menuOnOff} >Nível Médio</Link>
                 </li>
-                <li>
-                  <Link className="pageSelect4" to="/ensino-superior" onClick={menuOnOff} >Nivel Superior</Link>
+                <li>                   
+                  <Link to="ensino-superior"onClick={menuOnOff} >Nível superior</Link>
                 </li>
-                {/* <li>
-                  <a className="pageSelect4" href="">Sobre</a>
-                </li> */}
               </ul>
             </nav>
           </div>
@@ -45,8 +61,9 @@ function HeaderResponsive() {
     </header>
       </>
   )
-    
+  // <input type="radio" id="tab2" className="rd_tab" name="tabs" />
+  //                   <label htmlFor="tab2"  className="tab_label">
+  //                     Nível Médio
+  //                   </label>   
   
 }
-
-export default HeaderResponsive;

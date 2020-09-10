@@ -167,28 +167,27 @@ function Factorization() {
                 </li>
               </ul>
               <p>Exercício proposto resolvido.</p>
-              <p>
-                Fatore as expressões seguintes usando a fatoraçãopor agrupamento:
-                <p>a) 2x² - 4x + 3xy - 6y
-                  <p>
+              <p>Fatore as expressões seguintes usando a fatoraçãopor agrupamento:</p>
+                <p>
+                  a) 2x² - 4x + 3xy - 6y
+                </p>
+                  
                   <p>2x(x - 2) + 3y(x - 2)</p>
                   <p>(x - 2).(2x + 3y)</p>
-                  </p>
-                </p>
-                <p>b) a² - a - ab + b
-                  <p>
+                 
+                <p>b) a² - a - ab + b</p>
+                  
                     <p>a(a -1) - b(a - 1)</p>
                     <p>(a - 1).(a - b)</p>
-                  </p>
-                </p>
-              </p>
+                 
+                
+              
               <p>	Fatore a expressão algébrica (3x + 5)(x - 2) + (3x + 5)²</p>
-              <p>
+              
                 <p>(3x + 5)(x - 2) + (3x + 5)(3x + 5)</p>
                 <p>(3x + 5).[(3x + 5) + (x - 2)]</p>
                 <p>(3x + 5).(4x + 3)</p>
-                
-              </p>
+      
             </li>
             <li>
               <h4>3º caso de fatoração: trinômio quadrado perfeito</h4>
@@ -218,226 +217,228 @@ function Factorization() {
               </ul>
               <p>
                 Exercícios propostos resolvidos
-                <p>a)x² + 16x + 64 
-                  <p>resposta (x)² +2.(x).(8) + (8)² = (x + 8)²</p>
-                </p>
-                <p>b)49x² - 14x + 1
-                  <p>resposta (7x)² -2.(7x).(1) + (1)²= (7x - 1)²</p>
-                </p>
-                <p>c)9x² +12xy + 4y²
-                  <p>resposta (3x)² +2.(3x).(2y) + (2y)² = (3x + 2y)²</p>
-                </p>
-                <p>d)a² + 2ab + b²
-                  <p>resposta (a + b)² </p> 
-                </p>
               </p>
+                <p>a)x² + 16x + 64 </p>           
+                <p>resposta (x)² +2.(x).(8) + (8)² = (x + 8)²</p>
+
+                <p>b)49x² - 14x + 1</p>
+                <p>resposta (7x)² -2.(7x).(1) + (1)²= (7x - 1)²</p>
+
+                <p>c)9x² +12xy + 4y²</p>
+                <p>resposta (3x)² +2.(3x).(2y) + (2y)² = (3x + 2y)²</p>
+                <p>d)a² + 2ab + b²</p>
+                <p>resposta (a + b)² </p> 
+              
             </li>
 
             <li>
               	<h4>4º caso de fatoração: diferença de dois quadrados</h4>
              	<p>
-					Você já viu que o produto da soma pela diferença dos mesmos termos é um produto 
-					notável e que seu resultado é igual à diferença entre o quadrado do 
-					1° termo e o quadrado do 2° termo. Por exemplo:
-				</p>
-				<p className="formula">(a + b)(a - b) = a² - b²</p>
-				<ul>
-					<li>(x + 8)(x -8) = x² - 64</li>
-					<li>(5x + 9)(5x - 9) = 25x² - 81</li>
-					<li>(7x + y)(7x - y) = 49x² - y²</li>
-					<li>(10 + a)(10 - a) = 100 - a² </li>
-				</ul>
-				<p>Resolução de exercícios propostos.</p>
-				<ul>
-					<li>
-						Escreva as diferenças como produto de uma soma por
-						uma diferença dos mesmos termos:
-						<p>
-							a) 9x² - 16y² = (3x + 4y)(3x - 4y)
-						</p>
-						<p>
-							b) 4a²b² - 9x²y² = (2ab + 3xy)(2ab - 3xy)
-						</p>
-						<p>
-							c) x² - 1/36 = (x + 1/6)(x - 1/6)
-						</p>
-						<p>
-							d) 1/4 - 4a²b² = (1/2 + 2ab)(1/2 - 2ab)
-						</p>
-					</li>
-					<li>
-						Fatore a expressão (3x + 4)² - (2x -1)².
-						<p>
-							[(3x + 4) + (2x - 1)].[(3x + 4) - (2x -1)]
-							(5x + 3)(x + 5)
-						</p>
-					</li>
-					<li>
-						Faça a fatoração das expressões abaixo:
-						<p>a) 3x² - 15x = (√3.x + √(15x))(√3.x - √(15x))</p>
-						<p>9x² - 25 = (3x + 5)(3x -25)</p>
-					</li>
+                Você já viu que o produto da soma pela diferença dos mesmos termos é um produto 
+                notável e que seu resultado é igual à diferença entre o quadrado do 
+                1° termo e o quadrado do 2° termo. Por exemplo:
+              </p>
+              <p className="formula">(a + b)(a - b) = a² - b²</p>
+              <ul>
+                <li>(x + 8)(x -8) = x² - 64</li>
+                <li>(5x + 9)(5x - 9) = 25x² - 81</li>
+                <li>(7x + y)(7x - y) = 49x² - y²</li>
+                <li>(10 + a)(10 - a) = 100 - a² </li>
+              </ul>
+              <p>Resolução de exercícios propostos.</p>
+              <ul>
+                <li>
+                  Escreva as diferenças como produto de uma soma por
+                  uma diferença dos mesmos termos:
+                  <p>
+                    a) 9x² - 16y² = (3x + 4y)(3x - 4y)
+                  </p>
+                  <p>
+                    b) 4a²b² - 9x²y² = (2ab + 3xy)(2ab - 3xy)
+                  </p>
+                  <p>
+                    c) x² - 1/36 = (x + 1/6)(x - 1/6)
+                  </p>
+                  <p>
+                    d) 1/4 - 4a²b² = (1/2 + 2ab)(1/2 - 2ab)
+                  </p>
+                </li>
+                <li>
+                  Fatore a expressão (3x + 4)² - (2x -1)².
+                  <p>
+                    [(3x + 4) + (2x - 1)].[(3x + 4) - (2x -1)]
+                    (5x + 3)(x + 5)
+                  </p>
+                </li>
+                <li>
+                  Faça a fatoração das expressões abaixo:
+                  <p>a) 3x² - 15x = (√3.x + √(15x))(√3.x - √(15x))</p>
+                  <p>9x² - 25 = (3x + 5)(3x -25)</p>
+                </li>
 					
-				</ul>
+				      </ul>
             </li>
 
-			<li>
-				<h4>5° caso de fatoração: soma de dois cubos</h4>
-				<p>
-					Veja o que acontece quando multiplicamos a soma de dois termos por um trinômio formado pelo quadrado
-					do 1‚ termo, menos o produto do 1‚ pelo 2‚ e mais o quadrado do 2‚ termo:
-				</p>
-				<ul>
-					<li>
-						(x + y)(x² -xy + y²) = x³ -  x²y + xy² + yx² - xy² + y³ = x³ + y³ 
-						,temos cubo de 'x' e cubo de 'y' como resposta.
+            <li>
+              <h4>5° caso de fatoração: soma de dois cubos</h4>
+              <p>
+                Veja o que acontece quando multiplicamos a soma de dois termos por um trinômio formado pelo quadrado
+                do 1‚ termo, menos o produto do 1‚ pelo 2‚ e mais o quadrado do 2‚ termo:
+              </p>
+              <ul>
+                <li>
+                  (x + y)(x² -xy + y²) = x³ -  x²y + xy² + yx² - xy² + y³ = x³ + y³ 
+                  ,temos cubo de 'x' e cubo de 'y' como resposta.
 
-					</li>
-					<li>
-						(5x + 2)(25x² - 10x + 4) = 125x³ -50x² + 20x + 50x² - 20x + 8 = 125x³ + 8 ,
-						temos cubo de '5x' e cubo de '2' como resposta.
-					</li>
-				</ul>
-				<p>O caminho inverso do que aparece acima é mais um caso de fatoração (soma de dois cubos). Veja:</p>
-				<ul>
-					<li>x³ + y³ = (x + y)(x² -xy + y²)</li>
-					<li>125x³ + 8 = (5x + 2)(25x² - 10x + 4)</li>
-				</ul>
-				<p>Exercícios propostos resolvidos:</p>
-				<p>
-					Fatore as expressões que indicam soma de dois cubos:
-					<p>
-						<p>
-							a) a³ + 1000
+                </li>
+                <li>
+                  (5x + 2)(25x² - 10x + 4) = 125x³ -50x² + 20x + 50x² - 20x + 8 = 125x³ + 8 ,
+                  temos cubo de '5x' e cubo de '2' como resposta.
+                </li>
+				      </ul>
+				      <p>O caminho inverso do que aparece acima é mais um caso de fatoração (soma de dois cubos). Veja:</p>
+              <ul>
+                <li>x³ + y³ = (x + y)(x² -xy + y²)</li>
+                <li>125x³ + 8 = (5x + 2)(25x² - 10x + 4)</li>
+              </ul>
+				      <p>Exercícios propostos resolvidos:</p>
+              <p>
+                Fatore as expressões que indicam soma de dois cubos:
+              </p>
+					
+						  <p>a) a³ + 1000</p>
 							<p>temos cubo de 'a' e cubo de '10', com isto</p>
-							<p>
-								a³ + 1000 = (a + 10)(a² -10a + 10²)
-							</p>
-						</p>
-						<p>
-							b) 27x³ + 1
+							<p>a³ + 1000 = (a + 10)(a² -10a + 10²)</p>
+						
+							<p>b) 27x³ + 1</p>
 							<p>temos cubo de '3x' e cubo de '1', com isto</p>
 							<p>27x³ + 1 = (3x +1)(9x² - 3x.1 + 1²)</p>
-						</p>
-						<p>
-							c) 8x³ + y³
+					
+						  <p>c) 8x³ + y³</p>
 							<p>temos cubo de '2x' e cubo de y, com isto</p>
 							<p>8x³ + y³ = (2x + y)(4x² - 2xy + y²)</p>
-						</p>
-						OBS.: Use a distributiva para fazer a prova real. 
-					</p>
+						
+						  OBS.: Use a distributiva para fazer a prova real. 
+				
 					
-				</p>
-			</li>
+				
+			      </li>
 
-			<li>
-				<h4>6° caso de fatoração: diferença de dois cubos</h4>
-				<p>O raciocínio é o mesmo do caso anterior:</p>
-				<ul>
-					<li>
-						(x - y)(x² +xy + y²) = x³ + x²y + xy² -yx² - xy² - y³ = x³ - y³ ,
-						onde temos cubo de 'x' e cubo de 'y'.
-					</li>
-					<li>
-						(3x - 5)(9x² +15x + 25) = 27x³ + 45x² + 75x - 45x² - 75x - 125 = 27x³ - 125 ,
-						onde temos cubo de '3x' e cubo de '5'
-					</li>
-				</ul>
-				<p>
-					Fazendo o caminho inverso temos o caso de fatoração para expressões que indicam a diferença de dois cubos:
-				</p>
-				<ul>
-					<li>x³ - y³ = (x - y)(x² +xy + y²)</li>
-					<li>27x³ - 125 = (3x - 5)(9x² +15x + 25)</li>
-				</ul>
-				<p>
-					Exercício proposto resolvido
-					<p>
-						Faça a fatoração das diferenças entre dois cubos:
-						<p>
-							a) x³ - 64
+            <li>
+              <h4>6° caso de fatoração: diferença de dois cubos</h4>
+              <p>O raciocínio é o mesmo do caso anterior:</p>
+              <ul>
+                <li>
+                  (x - y)(x² +xy + y²) = x³ + x²y + xy² -yx² - xy² - y³ = x³ - y³ ,
+                  onde temos cubo de 'x' e cubo de 'y'.
+                </li>
+                <li>
+                  (3x - 5)(9x² +15x + 25) = 27x³ + 45x² + 75x - 45x² - 75x - 125 = 27x³ - 125 ,
+                  onde temos cubo de '3x' e cubo de '5'
+                </li>
+              </ul>
+              <p>
+                Fazendo o caminho inverso temos o caso de fatoração para expressões que indicam a diferença de dois cubos:
+              </p>
+              <ul>
+                <li>x³ - y³ = (x - y)(x² +xy + y²)</li>
+                <li>27x³ - 125 = (3x - 5)(9x² +15x + 25)</li>
+              </ul>
+              <p>
+                Exercício proposto resolvido
+              </p>	
+              <p>
+                Faça a fatoração das diferenças entre dois cubos:
+              </p>
+              <p>
+                a) x³ - 64
+              </p>
+
 							<p>Temos o cubo de 'x' e o cubo de '4', com isto</p>
 							<p>x³ - 64 = (x - 4)(x² + 4x + 4²)</p>
-						</p>
-						<p>
-							b) 8a³ - 1
+						
+              <p>
+                b) 8a³ - 1
+              </p>
 							<p>Temos o cubo de '2x' e o cubo de '1', com isto</p>
 							<p>8x³ -1 = (8x - 1)((2x)² + 2x.1 + 1²) = (4x² + 2x + 1) </p>
-						</p>
-						<p>
-							c) 27x³ - 125y³
+						
+              <p>
+                c) 27x³ - 125y³
+              </p>
 							<p>Temos o cubo de '3x e o cubo de '5y', com isto</p>
 							<p>(27x³ - 125y³) = (3x - 5y)((3x)² + 3x.5y + (5y)²) = (3x - 5y)(9x² +15xy + 25y²)</p>
-						</p>
-					</p>
-				</p>	
-			</li>
+						
+					
+				
+			      </li>
 
-			<li>
-				<h4>7° caso de fatoração: fatoração de expressões quadráticas</h4>
-				<p>
-					Quando multiplicamos (x + 3) por (x + 2) obtemos x² + 5x + 6 , ou seja: 
-				</p>
-				<p className="formula">(x + 3)(x + 2) = x² + 5x + 6</p>
-				<p>
-					O processo inverso, ou seja, partindo de x² + 5x + 6 para chegar a (x + 3)(x + 2),
-					 é chamado <i> fatoração da expressão quadrática</i> x² + 5x + 6.
-				</p>
-				<p>Veja alguns exemplos de fatoração de expressãoes quadráticas:</p>
-				<ul>
-					<li>
-						x² + 6x + 8
-						<p>Devemos encontrar dois números cujo produto é 8 e cuja soma é 6. Esses números são 4 e 2. Então,</p>
-						<p>x² + 6x + 8 = (x + 2)(x + 4)</p>
-					</li>
-					<li>
-						x² - 6x + 8
-						<p>
-							Devemos encontrar dois números cujo produto é 8 e cuja soma é -6.
-							Esses números são -2 e -4. Então,
-						</p>
-						<p>x² - 6x + 8 = (x - 2)(x - 4)</p>
-					</li>
-				</ul>
-				<p>Exercício proposto resolvido</p>
-				<p>
-					Fatore as expressões quadráticas:
-					<p>
-						a) x² + 7x + 10
-						<p>
-							Devemos encontrar dois números cujo produto é 10 e cuja soma é 7.
-							Esses números são 5 e 2. Então, 
-						</p>
-						<p>x² + 7x + 10 = (x + 5)(x + 2)</p>
-					</p>
+            <li>
+              <h4>7° caso de fatoração: fatoração de expressões quadráticas</h4>
+              <p>
+                Quando multiplicamos (x + 3) por (x + 2) obtemos x² + 5x + 6 , ou seja: 
+              </p>
+              <p className="formula">(x + 3)(x + 2) = x² + 5x + 6</p>
+              <p>
+                O processo inverso, ou seja, partindo de x² + 5x + 6 para chegar a (x + 3)(x + 2),
+                é chamado <i> fatoração da expressão quadrática</i> x² + 5x + 6.
+              </p>
+              <p>Veja alguns exemplos de fatoração de expressãoes quadráticas:</p>
+              <ul>
+                <li>
+                  x² + 6x + 8
+                  <p>Devemos encontrar dois números cujo produto é 8 e cuja soma é 6. Esses números são 4 e 2. Então,</p>
+                  <p>x² + 6x + 8 = (x + 2)(x + 4)</p>
+                </li>
+                <li>
+                  x² - 6x + 8
+                  <p>
+                    Devemos encontrar dois números cujo produto é 8 e cuja soma é -6.
+                    Esses números são -2 e -4. Então,
+                  </p>
+                  <p>x² - 6x + 8 = (x - 2)(x - 4)</p>
+                </li>
+              </ul>
+              <p>Exercício proposto resolvido</p>
+              <p>
+                Fatore as expressões quadráticas:
+              </p>
+              <p>
+                a) x² + 7x + 10
+              </p>
+              <p>
+                Devemos encontrar dois números cujo produto é 10 e cuja soma é 7.
+                Esses números são 5 e 2. Então, 
+              </p>
+              <p>x² + 7x + 10 = (x + 5)(x + 2)</p>
+              
 
-					<p>
-						b) x² + 3x - 10
-						<p>
-							Devemos encontrar dois números cujo produto é -10 e cuja soma é 3.
-							Esses números são 5 e -2. Então,
-						</p>
-						<p>
-							x² + 3x - 10 = (x + 5)(x -2) 
-						</p>
-					</p>
-					<p>
-						c) b² - 4b - 21
-						<p>
-							Devemos encontrar dois números cujo produto é -21 e cuja soma é -4.
-							Esses números são -7 e 3. Então,
-						</p>
-						<p>
-							b² - 4b - 21 = (b - 7)(b + 3)
-						</p>
-					</p>
-				</p>
-			</li>
+              <p>
+                b) x² + 3x - 10
+              </p>
+              <p>
+                Devemos encontrar dois números cujo produto é -10 e cuja soma é 3.
+                Esses números são 5 e -2. Então,
+              </p>
+              <p>
+                x² + 3x - 10 = (x + 5)(x -2) 
+              </p>
+					
+              <p>
+                c) b² - 4b - 21
+              </p>
+                <p>
+                  Devemos encontrar dois números cujo produto é -21 e cuja soma é -4.
+                  Esses números são -7 e 3. Então,
+                </p>
+                <p>
+                  b² - 4b - 21 = (b - 7)(b + 3)
+                </p>
+					
+				
+			      </li>
           </ul>
-			<p>
-				Com isto encerramos nosso estudo sobre <strong>produtos notáveis </strong> 
-				e <strong>fatoração de expressões algébricas</strong>.
-			</p>
+			
       </div>
     </div>
   )
