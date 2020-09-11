@@ -1,10 +1,21 @@
 import React from 'react';
 
-// import { Container } from './styles';
+import Helmet from 'react-helmet'
+
 
 function Factorization() {
   return (
     <div className="container-covered">
+
+      <Helmet>
+        <title>Matemática simplificada - Produtos notáveis e Fatoração de expressões algébricas</title>
+        <meta name="theme-color" content="#FF0000"/>
+        <meta
+          name="description"
+          content="Matemática simplificada: Ensino Médio - Fatoração é um processo utilizado na matemática que consiste em representar um número ou uma expressão como produto de fatores. Ao escrever um polinômio como a multiplicação de outros polinômios, frequentemente conseguimos simplificar a expressão."
+        /> 
+      </Helmet>
+
       <div className="content-covered">
         <h1>Fatoração de polinômios </h1>
         <hr/>

@@ -1,7 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-// import { Container } from './styles';
-
+import Helmet from 'react-helmet'
 import { contentPages } from '../../contentPagesVector'
 
 function filterByID(obj) {
@@ -17,6 +16,14 @@ var arrByID = contentPages.filter(filterByID);
 function HighSchool() {
   return (
     <>
+      <Helmet>
+      <title>Matemática simplificada - Ensino Médio</title>
+      <meta name="theme-color" content="#FF0000"/>
+      <meta
+        name="description"
+        content="Matemática simplificada: Ensino Médio - Conteúdos e exercícios do ensino médio separados pro cardes."
+      /> 
+    </Helmet>
         <main>
                 
         <h2 className="card-description">Cardes com conteúdos de Nível Médio</h2>

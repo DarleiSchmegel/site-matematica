@@ -2,11 +2,19 @@ import React from 'react';
 
 // import { Container } from './styles';
 import '../styles.css'
-
+import Helmet from 'react-helmet'
 
 function Potentiation() {
   return (
     <>
+    <Helmet>
+      <title>Matemática simplificada - Potenciação</title>
+      <meta name="theme-color" content="#FF0000"/>
+      <meta
+        name="description"
+        content="Matemática simplificada: Ensino Médio - A potenciação ou exponenciação é a operação matemática que representa a multiplicação de fatores iguais. Ou seja, usamos a potenciação quando um número é multiplicado por ele mesmo várias vezes."
+      /> 
+    </Helmet>
     <h3>Ainda não há nada aqui. Aguarde o conteúdo.</h3>
     {/* <html lang="pt-br">
     <head>

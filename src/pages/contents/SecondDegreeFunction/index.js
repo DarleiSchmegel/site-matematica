@@ -2,12 +2,21 @@ import React from 'react';
 import '../styles.css';
 
 
+import Helmet from 'react-helmet'
 
 function SecondDegreeFunction() {
 
   return (
     <div className="container-covered">
-      
+      <Helmet>
+        <title>Matemática simplificada - Função de segundo grau</title>
+        <meta name="theme-color" content="#FF0000"/>
+        <meta
+          name="description"
+          content="Matemática simplificada: Ensino Médio - A função de segundo grau, também chamada de função quadrática ou função polinomial do 2° grau, é escrita como: f(x) = ax² + bx + c. Sendo os coeficientes 'a, b e c' números reais e 'a' diferente de 0 (zero)."
+        /> 
+      </Helmet>
+
       <div className="content-covered">
           <h1>Função de Segundo Grau.</h1>
           <hr/>

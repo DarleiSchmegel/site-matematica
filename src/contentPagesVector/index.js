@@ -21,7 +21,7 @@ export const contentPages = [
         category: "médio",
         urlImg: "https://i.ibb.co/wSZMd8s/image.png",
         path: "/fatoracao"
-    }
+    }   
     // {
     //     id: ,
     //     title: ,

@@ -1,6 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-// import { Container } from './styles';
+import Helmet from 'react-helmet'
+
 import { contentPages } from '../../contentPagesVector'
 
 // const basico = contentPages.map( page =>
@@ -24,6 +25,14 @@ function ElementarySchool() {
 
   return (
         <>
+          <Helmet>
+            <title>Matemática simplificada - Ensino Fundamental</title>
+            
+            <meta
+              name="description"
+              content="Matemática simplificada: Ensino Fundamental - Conteúdos e exercícios do ensino fundamental separados pro cardes."
+            /> 
+          </Helmet>          
             <main>
                 
                 <h2 className="card-description">Cardes com conteúdos de Nível Fundamental</h2>

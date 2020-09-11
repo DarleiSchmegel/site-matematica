@@ -1,6 +1,6 @@
 import React from 'react';
+import Helmet from 'react-helmet'
 
-// import { Container } from './styles';
 import { contentPages } from '../../contentPagesVector'
 import { Link } from 'react-router-dom';
 
@@ -17,6 +17,14 @@ var arrByID = contentPages.filter(filterByID);
 function UniversityEducation() {
   return (
     <>
+      <Helmet>
+        <title>Matemática simplificada - Ensino Superior</title>
+        
+        <meta
+          name="description"
+          content="Matemática simplificada: Ensino Superior - Conteúdos e exercícios do ensino superior separados pro cardes."
+        /> 
+      </Helmet>
         <main>
        
             <h2 className="card-description">Cardes com conteúdos de Nível Superior</h2>

@@ -1,5 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom'
+import Helmet from 'react-helmet'
+
 
 import { contentPages } from '../../contentPagesVector'
 // import { useState } from 'react';
@@ -22,6 +24,14 @@ function Main() {
   
   return (
     <>
+    <Helmet>
+      <title>Matemática simplificada</title>
+      <meta name="theme-color" content="#FF0000"/>
+      <meta
+        name="description"
+        content="Matemática simplificada: Ensino Fundamental | Ensino Médio | Ensino Superior. Todos os conteúdos separados por cardes."
+      /> 
+    </Helmet>
     <main>
 
       
