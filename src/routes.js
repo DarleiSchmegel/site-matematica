@@ -1,5 +1,5 @@
 import React from 'react';
-import { BrowserRouter, Switch , Route , HashRouter } from 'react-router-dom';
+import { BrowserRouter, Switch , Route } from 'react-router-dom';
 
 import HeaderResponsive from './pages/HeaderResponsive';
 import Main from './pages/Main'
@@ -21,7 +21,7 @@ export default function Routes() {
         
         
         <BrowserRouter  >
-            <HashRouter basename="/">
+            {/* <HashRouter basename="/"> */}
                 <HeaderResponsive/> 
                 <Switch>
             
@@ -36,7 +36,7 @@ export default function Routes() {
                     <Route path="/ensino-basico" component={ElementarySchool} />
                 </Switch> 
                 <Footer/>
-            </HashRouter>
+            {/* </HashRouter> */}
         </BrowserRouter>
     );
 }
